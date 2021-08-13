@@ -47,6 +47,7 @@ namespace AccentorAltaicus.Tests
             var dto = await _handler.Handle(query, CancellationToken.None);
             dto.Id.Should().Be(id);
             dto.Total.Should().Be(21);
+            
         }
     }
 }
