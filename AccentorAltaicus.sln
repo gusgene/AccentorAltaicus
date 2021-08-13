@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Interfaces", "Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.MsSql", "DataAccess.MsSql\DataAccess.MsSql.csproj", "{D9D8F4DC-3230-43B3-B1AD-2484736B9315}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccentorAltaicus.Tests", "AccentorAltaicus.Tests\AccentorAltaicus.Tests.csproj", "{9EF61B4B-D2AE-4833-B135-0F7938E47C7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{D9D8F4DC-3230-43B3-B1AD-2484736B9315}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9D8F4DC-3230-43B3-B1AD-2484736B9315}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9D8F4DC-3230-43B3-B1AD-2484736B9315}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF61B4B-D2AE-4833-B135-0F7938E47C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF61B4B-D2AE-4833-B135-0F7938E47C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF61B4B-D2AE-4833-B135-0F7938E47C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF61B4B-D2AE-4833-B135-0F7938E47C7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

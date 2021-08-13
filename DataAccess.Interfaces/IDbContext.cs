@@ -9,7 +9,11 @@ namespace DataAccess.Interfaces
     {
         DbSet<Order> Orders { get; }
         DbSet<Product> Products { get; }
+        
+        DbSet<OrderItem> OrderItems { get; }
 
         Task<int> SaveChangesAsync(CancellationToken token = default);
+
+        bool EnsureDeleted();
     }
 }

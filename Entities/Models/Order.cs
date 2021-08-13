@@ -16,7 +16,7 @@ namespace Entities.Models
 
         public decimal GetTotal()
         {
-            return Items.Sum(x => x.Product.Price);
+            return Items.Sum(x => x.Product.Price * x.Quantity);
         }
     }
 }
