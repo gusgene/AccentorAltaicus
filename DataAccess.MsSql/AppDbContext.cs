@@ -15,7 +15,11 @@ namespace DataAccess.MsSql
 
         public DbSet<Order> Orders { get; set; }
         public DbSet<Product> Products { get; set; }
+        /// <inheritdoc />
+        
         public DbSet<OrderItem> OrderItems { get; set; }
+        
+        public bool EnsureDeleted() { return base.Database.EnsureDeleted(); }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -41,5 +45,7 @@ namespace DataAccess.MsSql
                 new OrderItem {OrderId = 1, ProductId = 2, Quantity = 2},
             });
         }
+        
+        
     }
 }
